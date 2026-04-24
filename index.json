@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated": "2026-04-25T00:00:00Z",
+  "updated": "2026-04-25T00:30:00Z",
   "connectors": [
     {
       "id": "pazchen.wishes",

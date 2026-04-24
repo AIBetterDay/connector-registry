@@ -1,8 +1,73 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated": "2026-04-25T00:30:00Z",
+  "updated": "2026-04-25T01:30:00Z",
   "connectors": [
+    {
+      "id": "pazchen.canvas",
+      "repo": "PazChen/better-connector-canvas",
+      "category": "creative",
+      "official": false,
+      "vendor": "pazchen",
+      "name": { "en": "Canvas", "zh": "画布" },
+      "description": {
+        "en": "Infinite canvas for notes, shapes, and creative layouts.",
+        "zh": "无限画布，支持图形、便签与创意排版。"
+      },
+      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-canvas/main/icon.svg"
+    },
+    {
+      "id": "pazchen.diary",
+      "repo": "PazChen/better-connector-diary",
+      "category": "lifestyle",
+      "official": false,
+      "vendor": "pazchen",
+      "name": { "en": "Diary", "zh": "日记" },
+      "description": {
+        "en": "Daily journal with rich text, calendar views, and mood tracking.",
+        "zh": "日记本，支持富文本、日历视图与心情记录。"
+      },
+      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-diary/main/icon.svg"
+    },
+    {
+      "id": "pazchen.goals",
+      "repo": "PazChen/better-connector-goals",
+      "category": "productivity",
+      "official": false,
+      "vendor": "pazchen",
+      "name": { "en": "Goals", "zh": "目标" },
+      "description": {
+        "en": "Set long-horizon goals, milestones, and tasks; track progress with the agent.",
+        "zh": "设定长期目标、里程碑与任务，借助 AI 追踪进展。"
+      },
+      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-goals/main/icon.svg"
+    },
+    {
+      "id": "pazchen.learning",
+      "repo": "PazChen/better-connector-learning",
+      "category": "productivity",
+      "official": false,
+      "vendor": "pazchen",
+      "name": { "en": "Learning", "zh": "学习" },
+      "description": {
+        "en": "Read papers with original-layout PDF, nested Q&A for your thinking, and compile to notes.",
+        "zh": "阅读论文：原版 PDF 左侧、嵌套问答右侧，可一键编译成笔记。"
+      },
+      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-learning/main/icon.svg"
+    },
+    {
+      "id": "pazchen.ledger",
+      "repo": "PazChen/better-connector-ledger",
+      "category": "lifestyle",
+      "official": false,
+      "vendor": "pazchen",
+      "name": { "en": "Ledger", "zh": "记账本" },
+      "description": {
+        "en": "Track income, expenses, accounts, categories, and budgets with AI-assisted entry.",
+        "zh": "记账本：账户、分类、预算、收支条目齐全，AI 辅助快速录入。"
+      },
+      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-ledger/main/icon.svg"
+    },
     {
       "id": "pazchen.wishes",
       "repo": "PazChen/better-connector-wishes",

@@ -1,0 +1,20 @@
+{
+  "$schema": "./schema.json",
+  "version": 1,
+  "updated": "2026-04-25T00:00:00Z",
+  "connectors": [
+    {
+      "id": "pazchen.wishes",
+      "repo": "PazChen/better-connector-wishes",
+      "category": "lifestyle",
+      "official": false,
+      "vendor": "pazchen",
+      "name": { "en": "Wishes", "zh": "人生愿望" },
+      "description": {
+        "en": "Record life wishes and dream lists, track status and estimated costs.",
+        "zh": "记录人生愿望和梦想清单，追踪状态和预估费用。"
+      },
+      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-wishes/main/icon.svg"
+    }
+  ]
+}

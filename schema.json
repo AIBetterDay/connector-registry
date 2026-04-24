@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Better Connector Registry Index",
+  "description": "Curated catalog the Better host pulls at startup to populate the connectors store. Adding an entry here = listing the connector publicly. Removing an entry = de-listing (existing installs keep working until the user uninstalls).",
+  "type": "object",
+  "required": ["version", "connectors"],
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+    "updated": { "type": "string", "format": "date-time" },
+    "connectors": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/connector" }
+    }
+  },
+  "$defs": {
+    "connector": {
+      "type": "object",
+      "required": ["id", "repo", "name"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9_-]*$",
+          "description": "Connector UID. Must match the runtime manifest.id form '<vendor>.<name>'. Two registry entries with the same id are not allowed."
+        },
+        "repo": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$",
+          "description": "GitHub repo as 'owner/name'. Host downloads the latest release's .bcx asset from this repo."
+        },
+        "vendor": {
+          "type": "string",
+          "description": "Cosmetic vendor display in the store. Should equal the prefix of `id`. Truth is the manifest.vendor at install time."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["productivity", "creative", "finance", "wellness", "lifestyle", "developer", "other"]
+        },
+        "official": {
+          "type": "boolean",
+          "default": false,
+          "description": "True only for connectors maintained by the AIBetterDay org. Shows the violet 'Official' badge in the store. Index reviewers must verify the repo owner matches an authorised AIBetterDay member account before flipping this to true."
+        },
+        "name": {
+          "type": "object",
+          "patternProperties": { "^[a-z]{2}(?:[-_][A-Za-z]{2,4})?$": { "type": "string" } },
+          "minProperties": 1,
+          "description": "Display name per locale. Same shape as manifest.name."
+        },
+        "description": {
+          "type": "object",
+          "patternProperties": { "^[a-z]{2}(?:[-_][A-Za-z]{2,4})?$": { "type": "string" } }
+        },
+        "icon": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional remote icon URL (raw.githubusercontent.com is recommended). Falls back to manifest.icon after install."
+        },
+        "screenshot": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

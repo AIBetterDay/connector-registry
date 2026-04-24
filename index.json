@@ -8,7 +8,7 @@
       "repo": "PazChen/better-connector-canvas",
       "category": "creative",
       "official": false,
-      "vendor": "pazchen",
+      "vendor": "PazChen",
       "name": { "en": "Canvas", "zh": "画布" },
       "description": {
         "en": "Infinite canvas for notes, shapes, and creative layouts.",
@@ -21,7 +21,7 @@
       "repo": "PazChen/better-connector-diary",
       "category": "lifestyle",
       "official": false,
-      "vendor": "pazchen",
+      "vendor": "PazChen",
       "name": { "en": "Diary", "zh": "日记" },
       "description": {
         "en": "Daily journal with rich text, calendar views, and mood tracking.",
@@ -34,7 +34,7 @@
       "repo": "PazChen/better-connector-goals",
       "category": "productivity",
       "official": false,
-      "vendor": "pazchen",
+      "vendor": "PazChen",
       "name": { "en": "Goals", "zh": "目标" },
       "description": {
         "en": "Set long-horizon goals, milestones, and tasks; track progress with the agent.",
@@ -47,7 +47,7 @@
       "repo": "PazChen/better-connector-learning",
       "category": "productivity",
       "official": false,
-      "vendor": "pazchen",
+      "vendor": "PazChen",
       "name": { "en": "Learning", "zh": "学习" },
       "description": {
         "en": "Read papers with original-layout PDF, nested Q&A for your thinking, and compile to notes.",
@@ -60,7 +60,7 @@
       "repo": "PazChen/better-connector-ledger",
       "category": "lifestyle",
       "official": false,
-      "vendor": "pazchen",
+      "vendor": "PazChen",
       "name": { "en": "Ledger", "zh": "记账本" },
       "description": {
         "en": "Track income, expenses, accounts, categories, and budgets with AI-assisted entry.",
@@ -73,7 +73,7 @@
       "repo": "PazChen/better-connector-wishes",
       "category": "lifestyle",
       "official": false,
-      "vendor": "pazchen",
+      "vendor": "PazChen",
       "name": { "en": "Wishes", "zh": "人生愿望" },
       "description": {
         "en": "Record life wishes and dream lists, track status and estimated costs.",

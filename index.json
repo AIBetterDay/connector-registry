@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated": "2026-04-25T01:30:00Z",
+  "updated": "2026-04-24T18:05:11.969Z",
   "connectors": [
     {
       "id": "pazchen.canvas",
@@ -9,12 +9,15 @@
       "category": "creative",
       "official": false,
       "vendor": "PazChen",
-      "name": { "en": "Canvas", "zh": "画布" },
+      "name": {
+        "en": "Canvas",
+        "zh": "画布"
+      },
       "description": {
         "en": "Infinite canvas for notes, shapes, and creative layouts.",
         "zh": "无限画布，支持图形、便签与创意排版。"
       },
-      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-canvas/main/icon.svg"
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1oaWRkZW49InRydWUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZy1jYW52YXMiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMjJkM2VlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzBlNzQ5MCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjYmctY2FudmFzKSIvPgogIDxwYXRoIGQ9Ik0xNiA0OGwyNC0yNGE0LjUgNC41IDAgMSAxIDYgNkwyMiA1NGwtOSAxeiIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIwLjk1Ii8+CiAgPHBhdGggZD0iTTQwIDI0bDYgNiIgc3Ryb2tlPSIjMGU3NDkwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjQ5IiBjeT0iMTciIHI9IjQiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC44NSIvPgo8L3N2Zz4="
     },
     {
       "id": "pazchen.diary",
@@ -22,12 +25,15 @@
       "category": "lifestyle",
       "official": false,
       "vendor": "PazChen",
-      "name": { "en": "Diary", "zh": "日记" },
+      "name": {
+        "en": "Diary",
+        "zh": "日记"
+      },
       "description": {
         "en": "Daily journal with rich text, calendar views, and mood tracking.",
         "zh": "日记本，支持富文本、日历视图与心情记录。"
       },
-      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-diary/main/icon.svg"
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1oaWRkZW49InRydWUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZy1kaWFyeSIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmYjcxODUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOWYxMjM5Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0idXJsKCNiZy1kaWFyeSkiLz4KICA8cGF0aCBkPSJNMTcgMTRoMjZhMyAzIDAgMCAxIDMgM3YzM2EyIDIgMCAwIDEtMiAySDIwYTMgMyAwIDAgMS0zLTNWMTR6IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjAuOTYiLz4KICA8cGF0aCBkPSJNMTcgMTR2MzJhMyAzIDAgMCAxIDMtM2gyNCIgc3Ryb2tlPSIjZmI3MTg1IiBzdHJva2Utd2lkdGg9IjEuOCIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC42Ii8+CiAgPHBhdGggZD0iTTM0IDE0aDd2MTdsLTMuNS0zLTMuNSAzeiIgZmlsbD0iI2ZkYTRhZiIvPgogIDxsaW5lIHgxPSIyMiIgeTE9IjI0IiB4Mj0iMzAiIHkyPSIyNCIgc3Ryb2tlPSIjZmI3MTg1IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIyMiIgeTE9IjMxIiB4Mj0iMzIiIHkyPSIzMSIgc3Ryb2tlPSIjZmI3MTg1IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4="
     },
     {
       "id": "pazchen.goals",
@@ -35,12 +41,15 @@
       "category": "productivity",
       "official": false,
       "vendor": "PazChen",
-      "name": { "en": "Goals", "zh": "目标" },
+      "name": {
+        "en": "Goals",
+        "zh": "目标"
+      },
       "description": {
         "en": "Set long-horizon goals, milestones, and tasks; track progress with the agent.",
         "zh": "设定长期目标、里程碑与任务，借助 AI 追踪进展。"
       },
-      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-goals/main/icon.svg"
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1oaWRkZW49InRydWUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZy1nb2FscyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmYmJmMjQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYjQ1MzA5Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0idXJsKCNiZy1nb2FscykiLz4KICA8Y2lyY2xlIGN4PSIzMiIgY3k9IjMyIiByPSIxOCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMuNSIgb3BhY2l0eT0iMC45NSIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjExIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMyIgb3BhY2l0eT0iMC44NSIvPgogIDxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjQuNSIgZmlsbD0iI2ZmZiIvPgogIDxwYXRoIGQ9Ik0zMiAxNHY2TTMyIDQ0djZNMTQgMzJoNk00NCAzMmg2IiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9IjAuNyIvPgo8L3N2Zz4="
     },
     {
       "id": "pazchen.learning",
@@ -48,12 +57,15 @@
       "category": "productivity",
       "official": false,
       "vendor": "PazChen",
-      "name": { "en": "Learning", "zh": "学习" },
+      "name": {
+        "en": "Learning",
+        "zh": "学习"
+      },
       "description": {
         "en": "Read papers with original-layout PDF, nested Q&A for your thinking, and compile to notes.",
         "zh": "阅读论文：原版 PDF 左侧、嵌套问答右侧，可一键编译成笔记。"
       },
-      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-learning/main/icon.svg"
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1oaWRkZW49InRydWUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZy1sZWFybmluZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM4MThjZjgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzczMGEzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0idXJsKCNiZy1sZWFybmluZykiLz4KICA8cGF0aCBkPSJNMzIgMTZMMTAgMjZsMjIgMTAgMjItMTBMMzIgMTZ6IiBmaWxsPSIjZmZmIiBmaWxsLW9wYWNpdHk9IjAuOTYiLz4KICA8cGF0aCBkPSJNMTggMzB2OGMwIDMgNi41IDUuNSAxNCA1LjVTNDYgNDEgNDYgMzh2LTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNNTIgMjh2MTIiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjUyIiBjeT0iNDIiIHI9IjIuMiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4="
     },
     {
       "id": "pazchen.ledger",
@@ -61,12 +73,15 @@
       "category": "lifestyle",
       "official": false,
       "vendor": "PazChen",
-      "name": { "en": "Ledger", "zh": "记账本" },
+      "name": {
+        "en": "Ledger",
+        "zh": "记账本"
+      },
       "description": {
         "en": "Track income, expenses, accounts, categories, and budgets with AI-assisted entry.",
         "zh": "记账本：账户、分类、预算、收支条目齐全，AI 辅助快速录入。"
       },
-      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-ledger/main/icon.svg"
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1oaWRkZW49InRydWUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZy1sZWRnZXIiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMmRkNGJmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzExNWU1OSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjYmctbGVkZ2VyKSIvPgogIDxyZWN0IHg9IjEyIiB5PSIyMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjI4IiByeD0iNSIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIwLjk2Ii8+CiAgPHBhdGggZD0iTTEyIDI4aDQwIiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMi41IiBvcGFjaXR5PSIwLjciLz4KICA8Y2lyY2xlIGN4PSI0MiIgY3k9IjM2IiByPSIzLjUiIGZpbGw9IiMwZjc2NmUiLz4KICA8cGF0aCBkPSJNMTQgMTRsMjQtMmEzIDMgMCAwIDEgMyAyLjVMNDIgMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC44NSIvPgo8L3N2Zz4="
     },
     {
       "id": "pazchen.wishes",
@@ -74,12 +89,15 @@
       "category": "lifestyle",
       "official": false,
       "vendor": "PazChen",
-      "name": { "en": "Wishes", "zh": "人生愿望" },
+      "name": {
+        "en": "Wishes",
+        "zh": "人生愿望"
+      },
       "description": {
         "en": "Record life wishes and dream lists, track status and estimated costs.",
         "zh": "记录人生愿望和梦想清单，追踪状态和预估费用。"
       },
-      "icon": "https://raw.githubusercontent.com/PazChen/better-connector-wishes/main/icon.svg"
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1oaWRkZW49InRydWUiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZy13aXNoZXMiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZTg3OWY5Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzg2MTk4ZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjYmctd2lzaGVzKSIvPgogIDxwYXRoIGQ9Ik0zMiAxM2w1LjYgMTEuNEw1MCAyNi4ybC05IDguNiAyLjIgMTIuNEwzMiA0MS40bC0xMS4yIDUuOEwyMyAzNC44bC05LTguNiAxMi40LTEuOEwzMiAxM3oiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC45NyIvPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTgiIHI9IjEuOCIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC43Ii8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMiIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC43Ii8+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSIxNCIgcj0iMS40IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwLjU1Ii8+Cjwvc3ZnPg=="
     }
   ]
 }

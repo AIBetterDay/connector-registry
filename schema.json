@@ -19,8 +19,8 @@
       "properties": {
         "id": {
           "type": "string",
-          "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9_-]*$",
-          "description": "Connector UID. Must match the runtime manifest.id form '<vendor>.<name>'. Two registry entries with the same id are not allowed."
+          "pattern": "^(?:[a-z][a-z0-9-]*\\.[a-z][a-z0-9_-]*|[a-z][a-z0-9_-]*)$",
+          "description": "Connector UID. New third-party connectors must match the runtime manifest.id form '<vendor>.<name>'. AIBetterDay-maintained legacy built-ins may use their existing single-segment ids. Two registry entries with the same id are not allowed."
         },
         "repo": {
           "type": "string",

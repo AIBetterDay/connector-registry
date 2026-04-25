@@ -33,9 +33,10 @@ Submit a PR to this repo. Edit `index.json`, add an entry that conforms to
 1. **Repo exists and has a release.** The release must have a `.bcx` asset
    produced by `npx better-connector pack` from the repo's source.
 2. **`id` matches `<vendor>.<name>`** and the `vendor` segment equals your
-   GitHub user / org name (case-insensitive). This is the same rule the host
-   enforces at install — entries that fail this can't be installed even if
-   merged, so the PR check just spares users a confusing failure.
+   GitHub user / org name (case-insensitive). AIBetterDay-maintained legacy
+   built-ins may keep their existing single-segment IDs. This matches the host
+   install rules — entries that fail this can't be installed even if merged, so
+   the PR check just spares users a confusing failure.
 3. **`official: true` is only for AIBetterDay-owned repos.** Anyone else gets
    `official: false` and shows up in the store without the violet badge.
 4. **No `id` collisions.** First-come, first-served on the namespaced id

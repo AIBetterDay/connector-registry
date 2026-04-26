@@ -1,23 +1,23 @@
 {
   "$schema": "./schema.json",
   "version": 1,
-  "updated": "2026-04-25T08:09:00.000Z",
+  "updated": "2026-04-26T16:30:00.000Z",
   "connectors": [
     {
-      "id": "todo",
-      "repo": "AIBetterDay/todos",
+      "id": "calendar",
+      "repo": "AIBetterDay/calendar",
       "category": "productivity",
       "official": true,
       "vendor": "AIBetterDay",
       "name": {
-        "en": "Todos",
-        "zh": "待办"
+        "en": "Calendar",
+        "zh": "日历"
       },
       "description": {
-        "en": "Capture, schedule and complete actionable todos with calendar-aware reminders.",
-        "zh": "把想法落成可执行的待办，挂在日历上看得见，到点提醒你。"
+        "en": "Plan tasks on a day, week, and month calendar with reminders and schedule-aware AI help.",
+        "zh": "用日、周、月日历安排任务，配合提醒和 AI 帮你规划时间。"
       },
-      "icon": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg-todos%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%2334d399%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23047857%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22url(%23bg-todos)%22%2F%3E%3Crect%20x%3D%2214%22%20y%3D%2216%22%20width%3D%2236%22%20height%3D%2232%22%20rx%3D%225%22%20fill%3D%22%23fff%22%20fill-opacity%3D%220.96%22%2F%3E%3Cpath%20d%3D%22M21%2031.5l5.5%205.5L43%2022.5%22%20stroke%3D%22%23059669%22%20stroke-width%3D%223.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E"
+      "icon": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20aria-hidden%3D%22true%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg-calendar%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%2360a5fa%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%232563eb%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22url%28%23bg-calendar%29%22%2F%3E%3Crect%20x%3D%2213%22%20y%3D%2216%22%20width%3D%2238%22%20height%3D%2234%22%20rx%3D%226%22%20fill%3D%22%23fff%22%20fill-opacity%3D%220.96%22%2F%3E%3Cpath%20d%3D%22M13%2026h38%22%20stroke%3D%22%232563eb%22%20stroke-width%3D%223%22%20stroke-linecap%3D%22round%22%20opacity%3D%220.9%22%2F%3E%3Cpath%20d%3D%22M23%2013v8M41%2013v8%22%20stroke%3D%22%23fff%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3Crect%20x%3D%2221%22%20y%3D%2232%22%20width%3D%228%22%20height%3D%226%22%20rx%3D%222%22%20fill%3D%22%2393c5fd%22%2F%3E%3Crect%20x%3D%2234%22%20y%3D%2232%22%20width%3D%229%22%20height%3D%226%22%20rx%3D%222%22%20fill%3D%22%232563eb%22%2F%3E%3Crect%20x%3D%2221%22%20y%3D%2241%22%20width%3D%2222%22%20height%3D%224%22%20rx%3D%222%22%20fill%3D%22%23bfdbfe%22%2F%3E%3C%2Fsvg%3E"
     },
     {
       "id": "note",
